@@ -7,8 +7,9 @@
   // The DNA layers, in application order — later layers win. Package
   // names as declared in pubspec.yaml / package.json, never paths.
   // Transitive parents come from each layer's own dna/_dna.json.
+  "vars": { "dnaLanguages": "en,de" },
   "layers": ["@ggdna/dna-plan", "@tssuite/dna-ggsuite"]
 
   // "vars": { "dnaProjectName": "my-project" },
-  // "claude": { "claudeMdInclude": ["doc/conventions"] }
+  // "claude": { "claudeMdInclude": ["doc/en/conventions"] }
 }

@@ -45,10 +45,10 @@ listet sie auf und sagt, welcher als nächster dran ist.
 ```
 
 Ein Ticket beginnt mit einer Plandatei in
-[tickets](doc/de/2026-Q4/tickets). Der Plan nennt das Ziel, dem es dient,
+[tickets](pm/de/2026-Q4/tickets). Der Plan nennt das Ziel, dem es dient,
 die Anforderungen, die es erfüllt, und die Repos, die es ändert.
 Entscheidungen unterwegs landen in
-[concepts/decisions](doc/de/2026-Q4/concepts/decisions).
+[concepts/decisions](pm/de/2026-Q4/concepts/decisions).
 
 ## Einschränkungen
 
@@ -62,19 +62,19 @@ Entscheidungen unterwegs landen in
 
 | Ordner                                                  | Inhalt                                |
 | ------------------------------------------------------- | ------------------------------------- |
-| [goals](doc/de/2026-Q4/goals)                           | Was das Projekt erreichen soll        |
-| [requirements](doc/de/2026-Q4/requirements)             | Was das Produkt können oder sein muss |
-| [concepts/topics](doc/de/2026-Q4/concepts/topics)       | Produktthemen und Belege              |
-| [concepts/decisions](doc/de/2026-Q4/concepts/decisions) | Entscheidungen, siehe Index           |
-| [concepts/ux](doc/de/2026-Q4/concepts/ux)               | Oberfläche und Abläufe                |
-| [architecture](doc/de/2026-Q4/architecture)             | Zielbild des Systems                  |
-| [tickets](doc/de/2026-Q4/tickets)                       | Eine Plandatei pro Ticket             |
-| [bugs](doc/de/2026-Q4/bugs)                             | Eine Datei pro Bug                    |
-| [team](doc/de/2026-Q4/team)                             | Personen, ihre Bereiche und Rollen    |
-| [reports](doc/de/2026-Q4/reports)                       | Ein Bericht pro Person und Quartal    |
-| [exports](doc/2026-Q4/exports)                          | Ticket-Exporte für Jira               |
-| [blog](doc/de/2026-Q4/blog)                             | Ein Post pro fertigem Ticket          |
-| [guides](doc/guides)                                    | Wie in diesem Repo gearbeitet wird    |
+| [goals](pm/de/2026-Q4/goals)                           | Was das Projekt erreichen soll        |
+| [requirements](pm/de/2026-Q4/requirements)             | Was das Produkt können oder sein muss |
+| [concepts/topics](pm/de/2026-Q4/concepts/topics)       | Produktthemen und Belege              |
+| [concepts/decisions](pm/de/2026-Q4/concepts/decisions) | Entscheidungen, siehe Index           |
+| [concepts/ux](pm/de/2026-Q4/concepts/ux)               | Oberfläche und Abläufe                |
+| [architecture](pm/de/2026-Q4/architecture)             | Zielbild des Systems                  |
+| [tickets](pm/de/2026-Q4/tickets)                       | Eine Plandatei pro Ticket             |
+| [bugs](pm/de/2026-Q4/bugs)                             | Eine Datei pro Bug                    |
+| [team](pm/de/2026-Q4/team)                             | Personen, ihre Bereiche und Rollen    |
+| [reports](pm/de/2026-Q4/reports)                       | Ein Bericht pro Person und Quartal    |
+| [exports](pm/en/2026-Q4/exports)                          | Ticket-Exporte für Jira               |
+| [blog](pm/de/2026-Q4/blog)                             | Ein Post pro fertigem Ticket          |
+| [guides](doc/en/guides)                                    | Wie in diesem Repo gearbeitet wird    |
 
 ## Funktionsweise
 
@@ -92,15 +92,15 @@ Frage nach der anderen, bevor ein Ticket daraus geschnitten wird.
 Die englische Fassung ist [README.md](README.md), die englischen Dateien
 liegen in [doc](doc).
 
-Der [PM-Repo-Guide](doc/guides/pm-repo-guide.md) beschreibt Struktur und
+Der [PM-Repo-Guide](doc/en/guides/pm-repo-guide.md) beschreibt Struktur und
 Dateinamen im Detail.
 
 ## Status
 
-Das aktuelle Quartal ist [2026-Q4](doc/de/2026-Q4). Ein Ziel ist
+Das aktuelle Quartal ist [2026-Q4](pm/de/2026-Q4). Ein Ziel ist
 vorgeschlagen:
-[Ein Ticket in Minuten veröffentlichen](doc/de/2026-Q4/goals/publish-a-ticket-in-minutes.md).
-Seine fünf [Anforderungen](doc/de/2026-Q4/requirements), in den Bereichen
+[Ein Ticket in Minuten veröffentlichen](pm/de/2026-Q4/goals/publish-a-ticket-in-minutes.md).
+Seine fünf [Anforderungen](pm/de/2026-Q4/requirements), in den Bereichen
 `publish` und `maintain`, sind akzeptiert. Das Team ist noch nicht
 eingetragen.
 
@@ -110,7 +110,7 @@ Auf einem Feature-Branch arbeiten und einen Pull Request öffnen. Mit
 `gg one do commit` committen, nie mit `git commit`, sonst schlägt der
 Quick Check fehl.
 
-Siehe den [Develop Guide](doc/guides/develop-guide.md).
+Siehe den [PM-Repo-Guide](doc/de/guides/pm-repo-guide.md).
 
 ## Lizenz
 
