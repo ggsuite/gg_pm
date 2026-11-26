@@ -104,7 +104,7 @@ and `maintain`, are accepted. The team is not written down yet.
 Work on a feature branch and open a pull request. Commit with
 `gg one do commit`, never with `git commit`, or the quick check fails.
 
-See the [Develop Guide](doc/en/guides/develop-guide.md).
+See the [PM repo guide](doc/en/guides/pm-repo-guide.md).
 
 ## License
 

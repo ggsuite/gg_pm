@@ -110,7 +110,7 @@ Auf einem Feature-Branch arbeiten und einen Pull Request öffnen. Mit
 `gg one do commit` committen, nie mit `git commit`, sonst schlägt der
 Quick Check fehl.
 
-Siehe den [Develop Guide](doc/en/guides/develop-guide.md).
+Siehe den [PM-Repo-Guide](doc/de/guides/pm-repo-guide.md).
 
 ## Lizenz
 
