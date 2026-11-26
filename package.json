@@ -16,8 +16,8 @@
   "type": "module",
   "packageManager": "pnpm@11.22.0",
   "devDependencies": {
-    "@ggdna/dna-plan": "^2.0.0",
-    "@tssuite/dna-ggsuite": "^2.0.0",
-    "@tssuite/helix-js": "^0.6.0"
+    "@ggdna/dna-plan": "^3.0.0",
+    "@tssuite/dna-ggsuite": "^3.0.0",
+    "@tssuite/helix-js": "^0.9.0"
   }
 }
