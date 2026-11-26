@@ -1,7 +1,7 @@
 ## @write-requirements Write the requirements
 
 - Group requirements by area of the product, one file per area:
-  `doc/<quarter>/requirements/<area>.md`, area in English kebab case
+  `pm/<lang>/<quarter>/requirements/<area>.md`, area in English kebab case
 - Give each requirement an ID `req-<area>-<abc>`: `<abc>` is a code of
   three lowercase letters that sums up the requirement, e.g.
   `req-results-lst` for the result list. The code is unique within its

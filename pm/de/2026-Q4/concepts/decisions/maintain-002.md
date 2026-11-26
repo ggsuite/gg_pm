@@ -2,7 +2,7 @@
 
 - Status: accepted
 - Date: 2026-11-15
-- Canonical source: [die englische Datei](../../../2026-Q4/concepts/decisions/maintain-002.md)
+- Canonical source: [die englische Datei](maintain-002.md)
 - Replaces: den Veröffentlichungs-Teil von [maintain-001](maintain-001.md)
 - Open work: —
 
