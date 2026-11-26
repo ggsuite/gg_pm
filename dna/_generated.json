@@ -15,7 +15,7 @@
       "ecosystem": "node",
       "resolvedVersion": "2.0.2",
       "via": null,
-      "hash": "0x416166a7236e0107"
+      "hash": "0xdb54a2934719c19b"
     },
     {
       "name": "dna-readme",
@@ -23,7 +23,7 @@
       "ecosystem": "node",
       "resolvedVersion": "0.4.1",
       "via": "dna-ggsuite",
-      "hash": "0x3fa94fd2d9b184c9"
+      "hash": "0xfb507a8f6df4e668"
     },
     {
       "name": "dna-guides",
@@ -39,7 +39,7 @@
       "ecosystem": "node",
       "resolvedVersion": "0.5.1",
       "via": "dna-ggsuite",
-      "hash": "0x18124d421abec3df"
+      "hash": "0x5f5ce89a81e1d577"
     },
     {
       "name": "dna-index",
@@ -126,7 +126,7 @@
   "instances": [
     {
       "path": ".claude/CLAUDE_dna_plan.md",
-      "hash": "0x73387b9e5edb1ea7"
+      "hash": "0xdea428e8ffad0121"
     },
     {
       "path": ".claude/skills/blog/SKILL.md",
@@ -310,7 +310,7 @@
     },
     {
       "path": "doc/de/guides/pm-repo-guide.md",
-      "hash": "0xde2df61dc66d9387"
+      "hash": "0x96956cd0dcc2b1fd"
     },
     {
       "path": "doc/de/guides/readme-dna-guide.md",
@@ -354,7 +354,7 @@
     },
     {
       "path": "doc/de/guides/translate-guide.md",
-      "hash": "0xdfffd4be5c83d539"
+      "hash": "0xddb1568beedfa27e"
     },
     {
       "path": "doc/de/guides/vscode-guide.md",
@@ -458,7 +458,7 @@
     },
     {
       "path": "doc/en/guides/pm-repo-guide.md",
-      "hash": "0x372bd87dc1aeb202"
+      "hash": "0xa8cdb16221bb8600"
     },
     {
       "path": "doc/en/guides/readme-dna-guide.md",
@@ -502,7 +502,7 @@
     },
     {
       "path": "doc/en/guides/translate-guide.md",
-      "hash": "0x7f2a2ed1467a180e"
+      "hash": "0x35e4fc748c382bc9"
     },
     {
       "path": "doc/en/guides/vscode-guide.md",
@@ -610,7 +610,7 @@
     },
     {
       "path": "doc/fa/guides/pm-repo-guide.md",
-      "hash": "0x1de8ceecd39dab2b"
+      "hash": "0x323c456cb254552e"
     },
     {
       "path": "doc/fa/guides/readme-dna-guide.md",
@@ -654,7 +654,7 @@
     },
     {
       "path": "doc/fa/guides/translate-guide.md",
-      "hash": "0xe8fa7355fdf1f452"
+      "hash": "0x9dca8c7900a4b6c7"
     },
     {
       "path": "doc/fa/guides/vscode-guide.md",
@@ -674,7 +674,7 @@
     },
     {
       "path": "scripts/check-readme.js",
-      "hash": "0x62567e6576ac8b2c"
+      "hash": "0xfcccfe71cde79e77"
     },
     {
       "path": "scripts/delete-feature-branch.js",

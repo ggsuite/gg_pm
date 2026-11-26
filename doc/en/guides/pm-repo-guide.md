@@ -348,8 +348,8 @@ root
 ## Keep the languages
 
 - This repo keeps its files in these languages, the leading one first:
-  `en,de`. The DNA variable that sets them is listed in
-  `dna/_vars.json`; change it in the `vars` of `dna/_dna.json`
+  `en,de`. Change them in the `vars` of `dna/_dna.json`, under
+  the key `dna` + `Languages` written as one word, e.g. `"en,de"`
 - Every file of `pm` and `doc` exists once per language, under
   `pm/<lang>` and `doc/<lang>` with the same path and file name, `<lang>`
   being the two-letter code of the language
