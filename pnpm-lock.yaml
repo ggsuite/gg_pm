@@ -4,31 +4,109 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-overrides:
-  '@ggdna/dna-plan': link:../dna_plan
-  '@tssuite/dna-ggsuite': link:../dna_ggsuite
-  '@ggdna/dna-blog': link:../dna_blog
-  '@ggdna/dna-clean-code': link:../dna_clean_code
-  '@ggdna/dna-github': link:../dna_github
-  '@ggdna/dna-guides': link:../dna_guides
-  '@ggdna/dna-index': link:../dna_index
-  '@ggdna/dna-install': link:../dna_install
-  '@ggdna/dna-readme': link:../dna_readme
-  '@ggdna/dna-scripts': link:../dna_scripts
-  '@ggdna/dna-translate': link:../dna_translate
-  '@ggdna/dna-vscode': link:../dna_vscode
-  '@tssuite/helix-js': link:../helix-js
-
 importers:
 
   .:
     devDependencies:
       '@ggdna/dna-plan':
-        specifier: link:../dna_plan
-        version: link:../dna_plan
+        specifier: ^3.0.0
+        version: 3.0.0
       '@tssuite/dna-ggsuite':
-        specifier: link:../dna_ggsuite
-        version: link:../dna_ggsuite
+        specifier: ^3.0.0
+        version: 3.0.0
       '@tssuite/helix-js':
-        specifier: link:../helix-js
-        version: link:../helix-js
+        specifier: ^0.9.0
+        version: 0.9.0
+
+packages:
+
+  '@ggdna/dna-blog@0.6.0':
+    resolution: {integrity: sha512-75ZOkOt1A2uxuj6m75sL6wfL7oAERf/TomyJeIlMNtLoWJUeRthOPIHN70I5b/rMlIGDxxtspTo3je2UARevxA==}
+    engines: {node: '>=22'}
+
+  '@ggdna/dna-clean-code@0.6.0':
+    resolution: {integrity: sha512-M+uFJ0gOFtaEKJH8UfL+GOKRj/XBctKAM0+bNWRFwZUqHmqQUP24xPhQ4HzNQ+dKZldU41zi1/5k3hnnHfW3AA==}
+    engines: {node: '>=22'}
+
+  '@ggdna/dna-github@0.3.0':
+    resolution: {integrity: sha512-QzNw45UnVHOeldmRn6X7GwvQhUlbTTO6ABOwGa2uYtwkiJGWhYmL1c+xufCu6Ie8Sdz/Me3ZiZYEN+a3wFD4nA==}
+    engines: {node: '>=22'}
+
+  '@ggdna/dna-guides@0.4.0':
+    resolution: {integrity: sha512-2JrZJ7eP5VJIVz4Zl22ZLNeOvvPqlHPkTXTuyAgjNRu2m8yglQwecO5doKbyDAfxWI9CxYvndk+Rs45NAFlgcA==}
+    engines: {node: '>=22'}
+
+  '@ggdna/dna-index@0.4.0':
+    resolution: {integrity: sha512-uMqVsYBfyepPzb/MmX46+f2G3gGNGDUCy3HOKfSzw6n+JrWsQZ3gO3X1YDb3p6n2GqubedUjs0CHRN+OxnLq1w==}
+    engines: {node: '>=22'}
+
+  '@ggdna/dna-install@0.5.0':
+    resolution: {integrity: sha512-/lRM1QkjS8e6CKdWEoIiVzRTNq+LrsZBqqpU2j5vf/bKI2f5abQNIqFh27w5/LCPJCKvEPe1T6j+A0JIFmMgVQ==}
+    engines: {node: '>=22'}
+
+  '@ggdna/dna-plan@3.0.0':
+    resolution: {integrity: sha512-4J2u46UUn5ZEiT9vooJCYqu5Yw5TZySELEH1IWtnzb1xIaQ5bSL6IUuXO/M7YodGBIVbonrn5pmRwO8uViCg6g==}
+    engines: {node: '>=22'}
+
+  '@ggdna/dna-readme@0.5.0':
+    resolution: {integrity: sha512-JTIIV3R17vrVLrhOCzZa0X+qWl7eFK28puD0y/r4EJplLgDaOAGBsVgezV/DtjYB+AwVCUdvdPpyh4Zyn/sxww==}
+    engines: {node: '>=22'}
+
+  '@ggdna/dna-scripts@0.5.0':
+    resolution: {integrity: sha512-+gnHCeePlBQOAjAQ3El4bJx+RXAJZd0bySY3+zbh3S3Pvp/jAAiy0O8XotJ+6tZfGEuN2ohTr2WHipL824zOGg==}
+    engines: {node: '>=22'}
+
+  '@ggdna/dna-translate@0.6.0':
+    resolution: {integrity: sha512-T97boeOVdeI3c/DuqxQhAFRFKVkXaf6uw/zqWdWppfwXaMhIrNY046+y2EjLC5p4dSMruGX1uyioPmRPPX+OOg==}
+    engines: {node: '>=22'}
+
+  '@ggdna/dna-vscode@0.6.0':
+    resolution: {integrity: sha512-LdP0ZcaXTUycmrRxC7DlJtv/kahIOkDqZDxqzgSKTGDus9o0US9Y1fGKqoeJxITS0rulv6TuEcaZsCFjKLcl5g==}
+    engines: {node: '>=22'}
+
+  '@tssuite/dna-ggsuite@3.0.0':
+    resolution: {integrity: sha512-CED25N6YfnbqaRfGBZTTJESFxPi5HrQFqJVXwHFKAGLrm7F4yXjmQLT02aQInVmicv/PH4CLrd7pYYHdOCt89Q==}
+    engines: {node: '>=26'}
+
+  '@tssuite/helix-js@0.9.0':
+    resolution: {integrity: sha512-Otan/ykDZUH1xZV8cCd54mGrensPk5mK3RJ9WdWQrV4caogSVjb81ZZixoxW9iWzHVICs46GWXlnRBvaO5E0Yw==}
+    engines: {node: '>=22'}
+
+snapshots:
+
+  '@ggdna/dna-blog@0.6.0': {}
+
+  '@ggdna/dna-clean-code@0.6.0': {}
+
+  '@ggdna/dna-github@0.3.0': {}
+
+  '@ggdna/dna-guides@0.4.0': {}
+
+  '@ggdna/dna-index@0.4.0': {}
+
+  '@ggdna/dna-install@0.5.0': {}
+
+  '@ggdna/dna-plan@3.0.0': {}
+
+  '@ggdna/dna-readme@0.5.0': {}
+
+  '@ggdna/dna-scripts@0.5.0': {}
+
+  '@ggdna/dna-translate@0.6.0': {}
+
+  '@ggdna/dna-vscode@0.6.0': {}
+
+  '@tssuite/dna-ggsuite@3.0.0':
+    dependencies:
+      '@ggdna/dna-blog': 0.6.0
+      '@ggdna/dna-clean-code': 0.6.0
+      '@ggdna/dna-github': 0.3.0
+      '@ggdna/dna-guides': 0.4.0
+      '@ggdna/dna-index': 0.4.0
+      '@ggdna/dna-install': 0.5.0
+      '@ggdna/dna-readme': 0.5.0
+      '@ggdna/dna-scripts': 0.5.0
+      '@ggdna/dna-translate': 0.6.0
+      '@ggdna/dna-vscode': 0.6.0
+
+  '@tssuite/helix-js@0.9.0': {}
